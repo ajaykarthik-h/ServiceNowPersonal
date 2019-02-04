@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="organization_type_details" label="Notes" language="en" table="x_238323_pycube_hi_pycube_himms_data_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>organization_type_details</element>
+            <help/>
+            <hint/>
+            <label>Notes</label>
+            <language>en</language>
+            <name>x_238323_pycube_hi_pycube_himms_data_table</name>
+            <plural>Notes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 21:43:14</sys_created_on>
+            <sys_id>bdf5086cdb1763002fb37de03c9619be</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Notes</sys_name>
+            <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+            <sys_update_name>sys_documentation_x_238323_pycube_hi_pycube_himms_data_table_organization_type_details_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 20:41:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

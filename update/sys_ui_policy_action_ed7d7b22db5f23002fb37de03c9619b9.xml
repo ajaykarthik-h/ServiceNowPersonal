@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>meeting_date_time</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-01 20:52:49</sys_created_on>
+        <sys_id>ed7d7b22db5f23002fb37de03c9619b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>meeting_date_time</sys_name>
+        <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ed7d7b22db5f23002fb37de03c9619b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-01 20:54:11</sys_updated_on>
+        <table>x_238323_pycube_hi_pycube_himms_data_table</table>
+        <ui_policy display_value="Make Meeting scheduler visible">addb77eedb1f23002fb37de03c961966</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

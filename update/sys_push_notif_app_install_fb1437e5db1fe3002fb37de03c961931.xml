@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2019-02-01 22:48:29</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-29 17:37:41</sys_created_on>
+        <sys_id>fb1437e5db1fe3002fb37de03c961931</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>f4c020b88838f1d06f13302aca0be1cd164b25e469cc261e7f6b51f4461ed644</sys_name>
+        <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_fb1437e5db1fe3002fb37de03c961931</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-01 22:48:29</sys_updated_on>
+        <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
+        <token>f4c020b88838f1d06f13302aca0be1cd164b25e469cc261e7f6b51f4461ed644</token>
+    </sys_push_notif_app_install>
+</record_update>

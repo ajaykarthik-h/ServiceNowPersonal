@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="83adba84db9b23002fb37de03c9619bb" sys_domain="global" table="x_238323_pycube_hi_pycube_himms_data_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 21:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ae28ce8db1763002fb37de03c961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">83adba84db9b23002fb37de03c9619bb</sys_ui_form>
+            <sys_ui_section caption="Pycube HIMMS" display_value="Pycube HIMMS" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">b44b9e80db5b23002fb37de03c9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 21:29:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-28 21:18:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a1d5799dbd3e3002fb37de03c9619d9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">83adba84db9b23002fb37de03c9619bb</sys_ui_form>
+            <sys_ui_section caption="Pain Points &amp; Interested Products" display_value="Pain Points &amp; Interested Products" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">821d1799dbd3e3002fb37de03c96193c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 20:40:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-28 21:05:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b2a9719dbd3e3002fb37de03c961989</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">83adba84db9b23002fb37de03c9619bb</sys_ui_form>
+            <sys_ui_section caption="Set up future meeting?" display_value="Set up future meeting?" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">362a5719dbd3e3002fb37de03c9619fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 20:40:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 21:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96e28ce8db1763002fb37de03c961948</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">83adba84db9b23002fb37de03c9619bb</sys_ui_form>
+            <sys_ui_section caption="Business Card (If Available)" display_value="Business Card (If Available)" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">52e24ce8db1763002fb37de03c96191b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 21:17:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_238323_pycube_hi_pycube_himms_data_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 21:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83adba84db9b23002fb37de03c9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_238323_pycube_hi_pycube_himms_data_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+            <sys_update_name>sys_ui_form_sections_83adba84db9b23002fb37de03c9619bb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 21:49:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

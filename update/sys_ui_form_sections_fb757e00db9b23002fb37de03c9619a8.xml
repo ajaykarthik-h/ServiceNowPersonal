@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fb757e00db9b23002fb37de03c9619a8" sys_domain="global" table="x_238323_pycube_hi_pycube_himms_data_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 21:13:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff757e00db9b23002fb37de03c9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="ba14feccdb5b23002fb37de03c96193b">fb757e00db9b23002fb37de03c9619a8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="ba14feccdb5b23002fb37de03c96193b">3214feccdb5b23002fb37de03c96193f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 21:13:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 21:13:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb757e00db9b23002fb37de03c9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="ba14feccdb5b23002fb37de03c96193b">fb757e00db9b23002fb37de03c9619a8</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="ba14feccdb5b23002fb37de03c96193b">33757e00db9b23002fb37de03c9619a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 21:13:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 21:13:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3757e00db9b23002fb37de03c9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="ba14feccdb5b23002fb37de03c96193b">fb757e00db9b23002fb37de03c9619a8</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="ba14feccdb5b23002fb37de03c96193b">3b757e00db9b23002fb37de03c9619a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 21:13:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 21:13:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33757e00db9b23002fb37de03c9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="ba14feccdb5b23002fb37de03c96193b">fb757e00db9b23002fb37de03c9619a8</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="ba14feccdb5b23002fb37de03c96193b">ff757e00db9b23002fb37de03c9619a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 21:13:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_238323_pycube_hi_pycube_himms_data_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 21:13:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb757e00db9b23002fb37de03c9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_238323_pycube_hi_pycube_himms_data_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fb757e00db9b23002fb37de03c9619a8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 21:13:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Initial View" name="Initial_View">ba14feccdb5b23002fb37de03c96193b</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

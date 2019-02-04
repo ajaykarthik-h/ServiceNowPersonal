@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=false" label="Pycube HIMMS Data Table" max_length="40" name="x_238323_pycube_hi_pycube_himms_data_table" type="collection">
+        <element label="business card" max_length="40" name="business_card" type="user_image"/>
+        <element label="Cell Number" max_length="64" name="cell_number" reference_qual="mobile_phoneSTARTSWITH^EQ" reference_qual_condition="mobile_phoneSTARTSWITH^EQ" type="phone_number_e164"/>
+        <element label="City" max_length="64" name="city" reference_qual="citySTARTSWITH^EQ" reference_qual_condition="citySTARTSWITH^EQ" type="string"/>
+        <element label="Company Name" mandatory="true" max_length="64" name="company_name" reference_qual="company=^EQ" reference_qual_condition="company=^EQ" type="string"/>
+        <element label="Department" max_length="32" name="department" reference_qual="department=^EQ" reference_qual_condition="department=^EQ" type="string"/>
+        <element label="Designation" max_length="64" name="designation" type="string"/>
+        <element label="Email" mandatory="true" max_length="64" name="email" type="string"/>
+        <element display="true" label="Full Name" mandatory="true" max_length="64" name="full_name" reference_qual="first_nameSTARTSWITH^EQ" reference_qual_condition="first_nameSTARTSWITH^EQ" type="string"/>
+        <element label="Has Business Card" max_length="40" name="has_business_card" type="boolean"/>
+        <element label="Interested Products" max_length="40" name="interested_products" type="glide_list"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Meeting Date/Time" max_length="40" name="meeting_date_time" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Office Number" max_length="64" name="office_number" type="phone_number_e164"/>
+        <element choice="1" default="healthcare" label="Organization Type" mandatory="true" max_length="40" name="organization_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hospitals" sequence="0" value="healthcare"/>
+                <element inactive_on_update="false" label="Nursing and residential care facilities" sequence="1" value="nursing"/>
+                <element inactive_on_update="false" label="Ambulatory health care services" sequence="2" value="more"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="supplies manufacturers" sequence="4" value="supplies manufacturers"/>
+                <element inactive_on_update="false" label="Medical insurance" sequence="5" value="Medical insurance"/>
+                <element inactive_on_update="false" label="Pharmaceuticals" sequence="6" value="pharmaceuticals"/>
+                <element inactive_on_update="false" label="None of the Above" sequence="7" value="none of the above"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="64" name="organization_type_details" type="string"/>
+        <element label="Pain Points" max_length="256" name="pain_points" type="string"/>
+        <element label="Send Details to Sales Team" max_length="40" name="setup_calendar_invite" type="boolean"/>
+        <element choice="3" default="other" label="State" max_length="64" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AL" sequence="0" value="al"/>
+                <element inactive_on_update="false" label="AK" sequence="1" value="ak"/>
+                <element inactive_on_update="false" label="AZ" sequence="2" value="az"/>
+                <element inactive_on_update="false" label="AR" sequence="3" value="ar"/>
+                <element inactive_on_update="false" label="CA" sequence="4" value="ca"/>
+                <element inactive_on_update="false" label="CO" sequence="5" value="co"/>
+                <element inactive_on_update="false" label="CT" sequence="6" value="ct"/>
+                <element inactive_on_update="false" label="DE" sequence="7" value="de"/>
+                <element inactive_on_update="false" label="FL" sequence="8" value="fl"/>
+                <element inactive_on_update="false" label="GA" sequence="9" value="ga"/>
+                <element inactive_on_update="false" label="HI" sequence="10" value="hi"/>
+                <element inactive_on_update="false" label="ID" sequence="11" value="id"/>
+                <element inactive_on_update="false" label="IL" sequence="12" value="il"/>
+                <element inactive_on_update="false" label="IN" sequence="13" value="in"/>
+                <element inactive_on_update="false" label="IA" sequence="14" value="ia"/>
+                <element inactive_on_update="false" label="KS" sequence="15" value="ks"/>
+                <element inactive_on_update="false" label="KY" sequence="16" value="ky"/>
+                <element inactive_on_update="false" label="LA" sequence="17" value="la"/>
+                <element inactive_on_update="false" label="ME" sequence="18" value="me"/>
+                <element inactive_on_update="false" label="MD" sequence="19" value="md"/>
+                <element inactive_on_update="false" label="MA" sequence="20" value="ma"/>
+                <element inactive_on_update="false" label="MI" sequence="21" value="mi"/>
+                <element inactive_on_update="false" label="MN" sequence="22" value="mn"/>
+                <element inactive_on_update="false" label="MS" sequence="23" value="ms"/>
+                <element inactive_on_update="false" label="MO" sequence="24" value="mo"/>
+                <element inactive_on_update="false" label="MT" sequence="25" value="mt"/>
+                <element inactive_on_update="false" label="NE" sequence="26" value="ne"/>
+                <element inactive_on_update="false" label="NV" sequence="27" value="nv"/>
+                <element inactive_on_update="false" label="NH" sequence="28" value="nh"/>
+                <element inactive_on_update="false" label="NJ" sequence="29" value="nj"/>
+                <element inactive_on_update="false" label="NM" sequence="30" value="nm"/>
+                <element inactive_on_update="false" label="NY" sequence="31" value="ny"/>
+                <element inactive_on_update="false" label="NC" sequence="32" value="nc"/>
+                <element inactive_on_update="false" label="ND" sequence="33" value="nd"/>
+                <element inactive_on_update="false" label="OH" sequence="34" value="oh"/>
+                <element inactive_on_update="false" label="OK" sequence="35" value="ok"/>
+                <element inactive_on_update="false" label="OR" sequence="36" value="or"/>
+                <element inactive_on_update="false" label="PA" sequence="37" value="pa"/>
+                <element inactive_on_update="false" label="RI" sequence="38" value="ri"/>
+                <element inactive_on_update="false" label="SC" sequence="39" value="sc"/>
+                <element inactive_on_update="false" label="SD" sequence="40" value="sd"/>
+                <element inactive_on_update="false" label="TN" sequence="41" value="tn"/>
+                <element inactive_on_update="false" label="TX" sequence="42" value="tx"/>
+                <element inactive_on_update="false" label="UT" sequence="43" value="ut"/>
+                <element inactive_on_update="false" label="VT" sequence="44" value="vt"/>
+                <element inactive_on_update="false" label="VA" sequence="45" value="va"/>
+                <element inactive_on_update="false" label="WA" sequence="46" value="wa"/>
+                <element inactive_on_update="false" label="WV" sequence="47" value="wv"/>
+                <element inactive_on_update="false" label="WI" sequence="48" value="wi"/>
+                <element inactive_on_update="false" label="WY" sequence="49" value="wy"/>
+                <element inactive_on_update="false" label="OTHER" sequence="50" value="other"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="New Icon" max_length="100" name="u_icon_1" type="icon"/>
+        <element label="Voice Lead" max_length="40" name="voice_lead" type="audio"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+    </element>
+</database>

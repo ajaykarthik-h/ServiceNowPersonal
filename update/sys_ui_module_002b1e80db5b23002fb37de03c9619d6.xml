@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Pycube HIMMS Data">8c2b1e80db5b23002fb37de03c9619d3</application>
+        <filter/>
+        <name>Pycube HIMMS Data Table</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_238323_pycube_hi.user,admin</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-24 19:17:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>002b1e80db5b23002fb37de03c9619d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pycube HIMMS Data Table</sys_name>
+        <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+        <sys_update_name>sys_ui_module_002b1e80db5b23002fb37de03c9619d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-24 22:15:39</sys_updated_on>
+        <table>x_238323_pycube_hi_pycube_himms_data_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

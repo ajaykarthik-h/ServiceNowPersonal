@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="HIMMS NOTIFICATION" name="HIMMS NOTIFICATION">14ca8b9ddb93e3002fb37de03c961934</category>
+        <collection>x_238323_pycube_hi_pycube_himms_data_table</collection>
+        <condition table="x_238323_pycube_hi_pycube_himms_data_table">setup_calendar_invite=true^EQ<item endquery="false" field="setup_calendar_invite" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi Please find the attached lead&nbsp;</p>
+<p>Full Name: ${full_name}</p>
+<p>Email: ${email}</p>
+<p>Meeting Date/Time: ${meeting_date_time}</p>
+<p>Office Number: ${office_number}</p>
+<p>Cell Number: ${cell_number}</p>
+<p>Organization Type: ${organization_type}</p>
+<p>Organization Description: ${organization_type_details}</p>
+<p>Designation: ${designation}</p>
+<p>Department: ${department}</p>
+<p>Company Name: ${company_name}</p>
+<p>City: ${city}</p>
+<p>State: ${state}</p>
+<p>Pain Points: ${pain_points}</p>
+<p>Interested Products: ${interested_products}<br /><br />&nbsp;Setup Calendar Invite?: ${setup_calendar_invite}</p>
+<p><br />&nbsp;business card: ${business_card}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HIMMS NOTIFICATION</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441,ajay@pycube.com,2c11b7e6db1f23002fb37de03c961982</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>HIMMS Leads</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-28 20:00:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebca875ddb93e3002fb37de03c9619a3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>HIMMS NOTIFICATION</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+        <sys_update_name>sysevent_email_action_ebca875ddb93e3002fb37de03c9619a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-01 20:31:37</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

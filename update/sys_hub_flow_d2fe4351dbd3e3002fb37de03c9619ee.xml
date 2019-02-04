@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>himms_email_lead_info</internal_name>
+        <label_cache>[{"name":"f3c415bc-b116-4863-94d5-af067392e9a7.email","label":"1➛email","reference":"sys_email","reference_display":"email"},{"name":"deddf8c8-f394-4336-8581-2c55a4e305ef.email","label":"1➛email","reference":"sys_email","reference_display":"email"},{"name":"Created_1.table_name","label":"Trigger➛Pycube HIMMS Data Table Table","reference":"x_238323_pycube_hi_pycube_himms_data_table","reference_display":"Pycube HIMMS Data Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>71b35715dbd3e3002fb37de03c96191b</latest_snapshot>
+        <master_snapshot/>
+        <name>HIMMS EMAIL LEAD INFO</name>
+        <outputs/>
+        <remote_trigger_id>79f09b91dbd3e3002fb37de03c961938</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-28 20:16:54</sys_created_on>
+        <sys_id>d2fe4351dbd3e3002fb37de03c9619ee</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>HIMMS EMAIL LEAD INFO</sys_name>
+        <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+        <sys_update_name>sys_hub_flow_d2fe4351dbd3e3002fb37de03c9619ee</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-02-01 21:54:55</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=d2fe4351dbd3e3002fb37de03c9619ee"/>
+</record_update>

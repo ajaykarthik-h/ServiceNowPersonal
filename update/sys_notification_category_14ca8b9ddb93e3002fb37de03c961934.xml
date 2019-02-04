@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_category">
+    <sys_notification_category action="INSERT_OR_UPDATE">
+        <name>HIMMS NOTIFICATION</name>
+        <short_description/>
+        <sys_class_name>sys_notification_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-28 19:58:40</sys_created_on>
+        <sys_id>14ca8b9ddb93e3002fb37de03c961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HIMMS NOTIFICATION</sys_name>
+        <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+        <sys_update_name>sys_notification_category_14ca8b9ddb93e3002fb37de03c961934</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-28 19:58:40</sys_updated_on>
+    </sys_notification_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=14ca8b9ddb93e3002fb37de03c961934"/>
+</record_update>

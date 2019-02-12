@@ -1,15 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=false" label="Pycube HIMMS Data Table" max_length="40" name="x_238323_pycube_hi_pycube_himms_data_table" type="collection">
-        <element label="business card" max_length="40" name="business_card" type="user_image"/>
+        <element label="business card" max_length="40" name="business_card" type="image"/>
         <element label="Cell Number" max_length="64" name="cell_number" reference_qual="mobile_phoneSTARTSWITH^EQ" reference_qual_condition="mobile_phoneSTARTSWITH^EQ" type="phone_number_e164"/>
         <element label="City" max_length="64" name="city" reference_qual="citySTARTSWITH^EQ" reference_qual_condition="citySTARTSWITH^EQ" type="string"/>
-        <element label="Company Name" mandatory="true" max_length="64" name="company_name" reference_qual="company=^EQ" reference_qual_condition="company=^EQ" type="string"/>
+        <element choice="2" label="Company Name" mandatory="true" max_length="64" name="company_name" type="string">
+            <choice>
+                <element inactive_on_update="false" label="PROVIDENCE ALASKA MEDICAL CENTER" sequence="0" value="PROVIDENCE ALASKA MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="BAPTIST MEDICAL CENTER SOUTH" sequence="1" value="BAPTIST MEDICAL CENTER SOUTH"/>
+                <element inactive_on_update="false" label="CALLAHAN EYE FOUNDATION HOSP" sequence="2" value="CALLAHAN EYE FOUNDATION HOSP"/>
+                <element inactive_on_update="false" label="COOPER GREEN MERCY HOSPITAL" sequence="3" value="COOPER GREEN MERCY HOSPITAL"/>
+                <element inactive_on_update="false" label="DCH REGIONAL MEDICAL CENTER" sequence="4" value="DCH REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="HUNTSVILLE HOSPITAL" sequence="5" value="HUNTSVILLE HOSPITAL"/>
+                <element inactive_on_update="false" label="INFIRMARY WEST" sequence="6" value="INFIRMARY WEST"/>
+                <element inactive_on_update="false" label="MOBILE INFIRMARY MEDICAL CENTER" sequence="7" value="MOBILE INFIRMARY MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="PRINCETON BAPTIST MEDICAL CENTER" sequence="8" value="PRINCETON BAPTIST MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="PROVIDENCE HOSPITAL" sequence="9" value="PROVIDENCE HOSPITAL"/>
+                <element inactive_on_update="false" label="ST VINCENTS BIRMINGHAM" sequence="10" value="ST VINCENTS BIRMINGHAM"/>
+                <element inactive_on_update="false" label="ST. VINCENTS EAST" sequence="11" value="ST. VINCENTS EAST"/>
+                <element inactive_on_update="false" label="THE CHILDRENS HOSPITAL OF ALABAMA" sequence="12" value="THE CHILDRENS HOSPITAL OF ALABAMA"/>
+                <element inactive_on_update="false" label="TRINITY MEDICAL CENTER" sequence="13" value="TRINITY MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="UNIV OF SOUTH ALABAMA MEDICAL CENTER" sequence="14" value="UNIV OF SOUTH ALABAMA MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="UNIVERSITY OF ALABAMA HOSPITAL" sequence="15" value="UNIVERSITY OF ALABAMA HOSPITAL"/>
+                <element inactive_on_update="false" label="USA CHILDRENS AND WOMENS HOSPITAL" sequence="16" value="USA CHILDRENS AND WOMENS HOSPITAL"/>
+                <element inactive_on_update="false" label="VAUGHAN REGIONAL MEDICAL CENTER" sequence="17" value="VAUGHAN REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="ARKANSAS CHILDRENS HOSPITAL" sequence="18" value="ARKANSAS CHILDRENS HOSPITAL"/>
+                <element inactive_on_update="false" label="BAPTIST HEALTH MEDICAL CENTER - LR" sequence="19" value="BAPTIST HEALTH MEDICAL CENTER - LR"/>
+                <element inactive_on_update="false" label="BAPTIST HEALTH REHABILITATION INSTIT" sequence="20" value="BAPTIST HEALTH REHABILITATION INSTIT"/>
+                <element inactive_on_update="false" label="CRITTENDEN REGIONAL HOSPITAL" sequence="21" value="CRITTENDEN REGIONAL HOSPITAL"/>
+                <element inactive_on_update="false" label="JEFFERSON REGIONAL MEDICAL CENTER" sequence="22" value="JEFFERSON REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="MAGNOLIA REGIONAL MEDICAL CENTER" sequence="23" value="MAGNOLIA REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="NEA - BAPTIST MEMORIAL HEALTH" sequence="24" value="NEA - BAPTIST MEMORIAL HEALTH"/>
+                <element inactive_on_update="false" label="NORTHWEST MEDICAL CENTER OF WASHINGT" sequence="25" value="NORTHWEST MEDICAL CENTER OF WASHINGT"/>
+                <element inactive_on_update="false" label="SPARKS REGIONAL MEDICAL CENTER" sequence="26" value="SPARKS REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="ST BERNARDS MEDICAL CENTER" sequence="27" value="ST BERNARDS MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="ST VINCENT INFIRMARY MEDICAL CENTER" sequence="28" value="ST VINCENT INFIRMARY MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="UAMS MEDICAL CENTER" sequence="29" value="UAMS MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="WASHINGTON REGIONAL MEDICAL CENTER" sequence="30" value="WASHINGTON REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="BANNER BOSWELL MEDICAL CENTER" sequence="31" value="BANNER BOSWELL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="BANNER DEL E WEBB MEDICAL CENTER" sequence="32" value="BANNER DEL E WEBB MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="BANNER GOOD SAMARITAN MEDICAL CENTER" sequence="33" value="BANNER GOOD SAMARITAN MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="JOHN C LINCOLN HOSP-NORTH MOUNTAIN" sequence="34" value="JOHN C LINCOLN HOSP-NORTH MOUNTAIN"/>
+                <element inactive_on_update="false" label="KINGMAN REGIONAL MEDICAL CENTER" sequence="35" value="KINGMAN REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="MARICOPA MEDICAL CENTER" sequence="36" value="MARICOPA MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="MAYO CLINIC HOSPITAL" sequence="37" value="MAYO CLINIC HOSPITAL"/>
+                <element inactive_on_update="false" label="MOUNTAIN VISTA MEDICAL CENTER" sequence="38" value="MOUNTAIN VISTA MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="PHOENIX BAPTIST HOSPITAL" sequence="39" value="PHOENIX BAPTIST HOSPITAL"/>
+                <element inactive_on_update="false" label="PHOENIX CHILDRENS HOSPITAL" sequence="40" value="PHOENIX CHILDRENS HOSPITAL"/>
+                <element inactive_on_update="false" label="SCOTTSDALE HEALTHCARE - OSBORN" sequence="41" value="SCOTTSDALE HEALTHCARE - OSBORN"/>
+                <element inactive_on_update="false" label="SCOTTSDALE HEALTHCARE - SHEA" sequence="42" value="SCOTTSDALE HEALTHCARE - SHEA"/>
+                <element inactive_on_update="false" label="SIERRA VISTA REGIONAL HEALTH CENTER" sequence="43" value="SIERRA VISTA REGIONAL HEALTH CENTER"/>
+                <element inactive_on_update="false" label="ST. JOSEPHS HOSPITAL &amp; MEDICAL CTR" sequence="44" value="ST. JOSEPHS HOSPITAL &amp; MEDICAL CTR"/>
+                <element inactive_on_update="false" label="THE UNIVERSITY PHYSICIANS HOSPITAL" sequence="45" value="THE UNIVERSITY PHYSICIANS HOSPITAL"/>
+                <element inactive_on_update="false" label="TUCSON MEDICAL CENTER" sequence="46" value="TUCSON MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="UNIVERSITY MEDICAL CENTER" sequence="47" value="UNIVERSITY MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="VERDE VALLEY MEDICAL CENTER" sequence="48" value="VERDE VALLEY MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="YUMA REGIONAL MEDICAL CENTER" sequence="49" value="YUMA REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="ALAMEDA COUNTY MEDICAL CENTER" sequence="50" value="ALAMEDA COUNTY MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="ARROWHEAD REGIONAL MEDICAL CENTER" sequence="51" value="ARROWHEAD REGIONAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="CALIFORNIA HOSPITAL MEDICAL CENTER" sequence="52" value="CALIFORNIA HOSPITAL MEDICAL CENTER"/>
+                <element inactive_on_update="false" label="CALIFORNIA PACIFIC MEDICAL CENTER" sequence="53" value="CALIFORNIA PACIFIC MEDICAL CENTER"/>
+            </choice>
+        </element>
         <element label="Department" max_length="32" name="department" reference_qual="department=^EQ" reference_qual_condition="department=^EQ" type="string"/>
-        <element label="Designation" max_length="64" name="designation" type="string"/>
-        <element label="Email" mandatory="true" max_length="64" name="email" type="string"/>
-        <element display="true" label="Full Name" mandatory="true" max_length="64" name="full_name" reference_qual="first_nameSTARTSWITH^EQ" reference_qual_condition="first_nameSTARTSWITH^EQ" type="string"/>
+        <element label="Title" max_length="64" name="designation" type="string"/>
+        <element label="Business Email" mandatory="true" max_length="64" name="email" type="email"/>
+        <element display="true" label="First Name" mandatory="true" max_length="64" name="full_name" type="string"/>
         <element label="Has Business Card" max_length="40" name="has_business_card" type="boolean"/>
         <element label="Interested Products" max_length="40" name="interested_products" type="glide_list"/>
+        <element label="Last Name" mandatory="true" max_length="64" name="last_name" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Meeting Date/Time" max_length="40" name="meeting_date_time" type="glide_date_time"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Office Number" max_length="64" name="office_number" type="phone_number_e164"/>
@@ -26,9 +84,22 @@
             </choice>
         </element>
         <element label="Notes" max_length="64" name="organization_type_details" type="string"/>
-        <element label="Pain Points" max_length="256" name="pain_points" type="string"/>
+        <element choice="2" label="Pain Points" max_length="256" name="pain_points" type="journal">
+            <choice>
+                <element inactive_on_update="false" label="LOCATING ASSETS" sequence="0" value="LOCATING ASSETS"/>
+                <element inactive_on_update="false" label="TRACKING ASSETS" sequence="1" value="TRACKING ASSETS"/>
+                <element inactive_on_update="false" label="LOSING TELEMETRY DEVICES" sequence="2" value="LOSING TELEMETRY DEVICES"/>
+                <element inactive_on_update="false" label="PATIENT ELOPEMENT" sequence="3" value="PATIENT ELOPEMENT"/>
+                <element inactive_on_update="false" label="HOARDING ASSETS(STAFF)" sequence="4" value="HOARDING ASSETS(STAFF)"/>
+                <element inactive_on_update="false" label="THEFT" sequence="5" value="THEFT"/>
+                <element inactive_on_update="false" label="MISPLACEMENT OF ASSETS" sequence="6" value="MISPLACEMENT OF ASSETS"/>
+                <element inactive_on_update="false" label="INFECTION CONTROL" sequence="7" value="INFECTION CONTROL"/>
+                <element inactive_on_update="false" label="PREVENTATIVE MAINTENANCE" sequence="8" value="PREVENTATIVE MAINTENANCE"/>
+                <element inactive_on_update="false" label="OVER PROCUREMENT" sequence="9" value="OVER PROCUREMENT"/>
+            </choice>
+        </element>
         <element label="Send Details to Sales Team" max_length="40" name="setup_calendar_invite" type="boolean"/>
-        <element choice="3" default="other" label="State" max_length="64" name="state" type="string">
+        <element choice="3" default="other" label="State" mandatory="true" max_length="64" name="state" type="string">
             <choice>
                 <element inactive_on_update="false" label="AL" sequence="0" value="al"/>
                 <element inactive_on_update="false" label="AK" sequence="1" value="ak"/>

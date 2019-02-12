@@ -61,7 +61,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441,ajay@pycube.com,2c11b7e6db1f23002fb37de03c961982</recipient_users>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441,ajay@pycube.com,steve.l@pycube.com,shaan@pycube.com,amanda.atrash@pycube.com,pauldumra@pycube.com,brandon@pycube.com,karissma@pycube.com,srinivas.k@pycube.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -74,7 +74,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ebca875ddb93e3002fb37de03c9619a3</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>HIMMS NOTIFICATION</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
@@ -82,7 +82,7 @@
         <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
         <sys_update_name>sysevent_email_action_ebca875ddb93e3002fb37de03c9619a3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-01 20:31:37</sys_updated_on>
+        <sys_updated_on>2019-02-11 18:31:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>64</max_length>
         <name>x_238323_pycube_hi_pycube_himms_data_table</name>
         <next_element/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-25 21:45:18</sys_created_on>
         <sys_id>ba16886cdb1763002fb37de03c9619cd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>State</sys_name>
         <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
         <sys_update_name>sys_dictionary_x_238323_pycube_hi_pycube_himms_data_table_state</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-25 22:07:14</sys_updated_on>
+        <sys_updated_on>2019-02-07 18:13:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

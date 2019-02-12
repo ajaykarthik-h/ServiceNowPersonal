@@ -24,7 +24,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_238323_pycube_hi_pycube_himms_data_table" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">83adba84db9b23002fb37de03c9619bb</sys_ui_form>
-            <sys_ui_section caption="Pain Points &amp; Interested Products" display_value="Pain Points &amp; Interested Products" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">821d1799dbd3e3002fb37de03c96193c</sys_ui_section>
+            <sys_ui_section caption="Interested Products &amp; Solutions" display_value="Interested Products &amp; Solutions" name="x_238323_pycube_hi_pycube_himms_data_table" sys_domain="global" view="Default view">821d1799dbd3e3002fb37de03c96193c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-02-01 20:40:37</sys_updated_on>
         </sys_ui_form_section>

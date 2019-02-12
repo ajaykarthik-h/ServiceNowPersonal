@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>number,business_card,cell_number,company_name,designation,email,full_name,has_business_card,office_number,organization_type</field_list>
+        <filter/>
+        <name>ed_t_x_238323_pycube_hi_pycube_himms_dat</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-12 06:53:08</sys_created_on>
+        <sys_id>aad6e90edb6ba3002fb37de03c9619a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ed_t_x_238323_pycube_hi_pycube_himms_dat</sys_name>
+        <sys_package display_value="Pycube HIMMS Data" source="x_238323_pycube_hi">6f1b1a40db5b23002fb37de03c961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pycube HIMMS Data">6f1b1a40db5b23002fb37de03c961930</sys_scope>
+        <sys_update_name>sys_export_definition_aad6e90edb6ba3002fb37de03c9619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-12 06:53:08</sys_updated_on>
+        <table_name>x_238323_pycube_hi_pycube_himms_data_table</table_name>
+        <view display_value="Exp_daad6e90edb6ba3002fb37de03c9619a1" name="exp_daad6e90edb6ba3002fb37de03c9619a1">2ad6e90edb6ba3002fb37de03c9619a2</view>
+    </sys_export_definition>
+</record_update>
